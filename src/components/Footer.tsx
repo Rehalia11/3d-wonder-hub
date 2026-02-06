@@ -56,7 +56,7 @@ export const Footer = () => {
           >
             <h4 className="font-display font-semibold mb-4">Services</h4>
             <ul className="space-y-3">
-              {["FDM Printing", "Prototyping", "Multi-Color", "Post-Processing"].map((service) => (
+              {["FDM Printing", "Prototyping", "Hand Painting", "Post-Processing"].map((service) => (
                 <li key={service}>
                   <span className="text-muted-foreground text-sm">{service}</span>
                 </li>

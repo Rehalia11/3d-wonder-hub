@@ -5,12 +5,12 @@ const services = [
   {
     icon: Printer,
     title: "FDM Printing",
-    description: "High-quality Fused Deposition Modeling for prototypes and functional parts.",
+    description: "High-quality Fused Deposition Modeling for prototypes and functional parts in various colors.",
   },
   {
     icon: Palette,
-    title: "Multi-Color Prints",
-    description: "Vibrant multi-color 3D prints that bring your designs to life.",
+    title: "Hand-Painted Finishing",
+    description: "Custom hand-painting service to add vibrant colors and details to your prints.",
   },
   {
     icon: Cog,
