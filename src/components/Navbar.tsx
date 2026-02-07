@@ -36,7 +36,7 @@ export const Navbar = () => {
           {/* Logo */}
           <a href="#" className="flex items-center gap-2">
             <Box className="w-8 h-8 text-primary" />
-            <span className="font-display font-bold text-xl">3D Print Co</span>
+            <span className="font-display font-bold text-xl">3D Indier</span>
           </a>
 
           {/* Desktop Nav */}

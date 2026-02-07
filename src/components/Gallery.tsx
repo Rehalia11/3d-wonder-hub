@@ -1,35 +1,29 @@
 import { motion } from "framer-motion";
+import galleryFigurine from "@/assets/gallery-figurine.jpg";
+import galleryMechanical from "@/assets/gallery-mechanical.jpg";
+import galleryArchitecture from "@/assets/gallery-architecture.jpg";
+import galleryPrototype from "@/assets/gallery-prototype.jpg";
 
 const galleryItems = [
   {
     title: "Custom Figurines",
     category: "Art & Collectibles",
-    gradient: "from-primary/20 to-accent/20",
+    image: galleryFigurine,
   },
   {
     title: "Mechanical Parts",
     category: "Industrial",
-    gradient: "from-accent/20 to-glow-blue/20",
+    image: galleryMechanical,
   },
   {
     title: "Architectural Models",
     category: "Architecture",
-    gradient: "from-glow-blue/20 to-primary/20",
+    image: galleryArchitecture,
   },
   {
     title: "Product Prototypes",
     category: "Product Design",
-    gradient: "from-primary/20 to-glow-blue/20",
-  },
-  {
-    title: "Custom Enclosures",
-    category: "Electronics",
-    gradient: "from-accent/20 to-primary/20",
-  },
-  {
-    title: "Jewelry & Accessories",
-    category: "Fashion",
-    gradient: "from-glow-blue/20 to-accent/20",
+    image: galleryPrototype,
   },
 ];
 
@@ -54,30 +48,22 @@ export const Gallery = () => {
           </p>
         </motion.div>
 
-        <div className="grid grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6">
+        <div className="grid grid-cols-2 gap-4 md:gap-6 max-w-4xl mx-auto">
           {galleryItems.map((item, index) => (
             <motion.div
               key={index}
-              className={`aspect-square rounded-xl overflow-hidden relative group cursor-pointer ${
-                index === 0 || index === 3 ? "lg:col-span-1 lg:row-span-1" : ""
-              }`}
+              className="aspect-square rounded-xl overflow-hidden relative group cursor-pointer"
               initial={{ opacity: 0, scale: 0.95 }}
               whileInView={{ opacity: 1, scale: 1 }}
               viewport={{ once: true }}
               transition={{ delay: index * 0.1 }}
             >
-              <div className={`absolute inset-0 bg-gradient-to-br ${item.gradient} group-hover:opacity-80 transition-opacity`} />
-              <div className="absolute inset-0 bg-secondary/50" />
-              
-              {/* 3D cube animation placeholder */}
-              <div className="absolute inset-0 flex items-center justify-center">
-                <motion.div
-                  className="w-24 h-24 border-2 border-primary/30 rounded-lg"
-                  animate={{ rotateY: [0, 360] }}
-                  transition={{ duration: 20, repeat: Infinity, ease: "linear" }}
-                  style={{ transformStyle: "preserve-3d" }}
-                />
-              </div>
+              <img
+                src={item.image}
+                alt={item.title}
+                className="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                loading="lazy"
+              />
               
               {/* Overlay content */}
               <div className="absolute inset-0 flex flex-col justify-end p-4 md:p-6 opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-gradient-to-t from-background/90 to-transparent">
