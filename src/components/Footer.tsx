@@ -15,7 +15,7 @@ export const Footer = () => {
           >
             <div className="flex items-center gap-2 mb-4">
               <Box className="w-8 h-8 text-primary" />
-              <span className="font-display font-bold text-xl">3D Print Co</span>
+              <span className="font-display font-bold text-xl">3D Indier</span>
             </div>
             <p className="text-muted-foreground text-sm leading-relaxed mb-4">
               Transforming digital designs into reality with precision 3D printing services.
@@ -92,7 +92,7 @@ export const Footer = () => {
         {/* Bottom bar */}
         <div className="pt-8 border-t border-border/50 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-muted-foreground text-sm">
-            © 2024 3D Print Co. All rights reserved.
+            © 2024 3D Indier. All rights reserved.
           </p>
           <div className="flex items-center gap-6">
             <a href="#" className="text-muted-foreground hover:text-primary transition-colors text-sm">
