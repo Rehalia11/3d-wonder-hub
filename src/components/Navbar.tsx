@@ -1,7 +1,8 @@
 import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
-import { Box, Menu, X } from "lucide-react";
+import { Menu, X } from "lucide-react";
 import { WhatsAppButton } from "./ui/whatsapp-button";
+import logo from "@/assets/logo.png";
 
 const navLinks = [
   { label: "Services", href: "#services" },
@@ -35,7 +36,7 @@ export const Navbar = () => {
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <a href="#" className="flex items-center gap-2">
-            <Box className="w-8 h-8 text-primary" />
+            <img src={logo} alt="3D Indier Logo" className="w-10 h-10 object-contain" />
             <span className="font-display font-bold text-xl">3D Indier</span>
           </a>
 
