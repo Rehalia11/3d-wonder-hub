@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { WhatsAppButton } from "./ui/whatsapp-button";
-import { Box, Layers, Printer } from "lucide-react";
+import { Layers, Printer } from "lucide-react";
 
 export const Hero = () => {
   return (
@@ -25,7 +25,7 @@ export const Hero = () => {
         animate={{ y: [-20, 20, -20], rotate: [0, 180, 360] }}
         transition={{ duration: 10, repeat: Infinity, ease: "easeInOut" }}
       >
-        <Box className="w-24 h-24" />
+        <Layers className="w-24 h-24" />
       </motion.div>
       <motion.div
         className="absolute bottom-1/3 left-1/5 text-accent/30"

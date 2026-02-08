@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
-import { MessageCircle, Mail, MapPin, Box } from "lucide-react";
+import { MessageCircle, Mail, MapPin } from "lucide-react";
 import { WhatsAppButton } from "./ui/whatsapp-button";
+import logo from "@/assets/logo.png";
 export const Footer = () => {
   return <footer className="py-16 border-t border-border/50 relative">
       <div className="container px-4">
@@ -16,7 +17,7 @@ export const Footer = () => {
           once: true
         }}>
             <div className="flex items-center gap-2 mb-4">
-              <Box className="w-8 h-8 text-primary" />
+              <img src={logo} alt="3D Indier Logo" className="w-8 h-8 object-contain" />
               <span className="font-display font-bold text-xl">3D Indier</span>
             </div>
             <p className="text-muted-foreground text-sm leading-relaxed mb-4">
