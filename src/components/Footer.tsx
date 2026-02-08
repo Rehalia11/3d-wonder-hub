@@ -17,7 +17,7 @@ export const Footer = () => {
           once: true
         }}>
             <div className="flex items-center gap-2 mb-4">
-              <img src={logo} alt="3D Indier Logo" className="w-8 h-8 object-contain" />
+              <img alt="3D Indier Logo" className="w-8 h-8 object-contain" src="/lovable-uploads/3534993c-0206-42a4-9f58-3f0f764d12ea.png" />
               <span className="font-display font-bold text-xl">3D Indier</span>
             </div>
             <p className="text-muted-foreground text-sm leading-relaxed mb-4">
