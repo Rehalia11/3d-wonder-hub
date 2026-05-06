@@ -23,7 +23,7 @@ const pricingPlans = [
       "Premium materials",
       "2-4 days turnaround",
       "Sanding & smoothing",
-      "Priority support",
+      "Dedicated support",
       "Design consultation",
     ],
     popular: true,
@@ -34,7 +34,7 @@ const pricingPlans = [
     features: [
       "Any filament color",
       "Hand-painted finishing",
-      "Priority 2-4 days turnaround",
+      "2-4 days turnaround",
       "Premium detailing",
       "Multiple revisions",
       "Volume discounts",
