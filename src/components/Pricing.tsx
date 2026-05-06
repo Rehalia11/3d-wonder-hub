@@ -9,7 +9,7 @@ const pricingPlans = [
     features: [
       "Single color prints",
       "Standard materials (PLA)",
-      "5-7 days turnaround",
+      "5-7 days turnaround (min 2-4 days)",
       "Basic cleanup",
       "WhatsApp support",
     ],
@@ -21,7 +21,7 @@ const pricingPlans = [
     features: [
       "Choice of filament colors",
       "Premium materials",
-      "2-3 days turnaround",
+      "2-4 days turnaround",
       "Sanding & smoothing",
       "Priority support",
       "Design consultation",
@@ -34,7 +34,7 @@ const pricingPlans = [
     features: [
       "Any filament color",
       "Hand-painted finishing",
-      "24-hour express option",
+      "Priority 2-4 days turnaround",
       "Premium detailing",
       "Multiple revisions",
       "Volume discounts",

@@ -19,8 +19,8 @@ const services = [
   },
   {
     icon: Zap,
-    title: "Express Service",
-    description: "Rush orders available for time-sensitive projects with 24-hour turnaround.",
+    title: "CAD Designing",
+    description: "Share your idea and our team will design custom 3D models tailored to your requirements.",
   },
   {
     icon: Shield,
