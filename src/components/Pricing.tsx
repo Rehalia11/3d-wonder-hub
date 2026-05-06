@@ -23,7 +23,7 @@ const pricingPlans = [
       "Premium materials",
       "2-4 days turnaround",
       "Sanding & smoothing",
-      "Dedicated support",
+      "Design consultation",
       "Design consultation",
     ],
     popular: true,
