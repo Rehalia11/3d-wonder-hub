@@ -6,14 +6,14 @@ const steps = [
   {
     icon: Upload,
     step: "01",
-    title: "Share Your Design",
-    description: "Send us your 3D model file (STL, OBJ, or other formats) via WhatsApp.",
+    title: "Share Design or Idea",
+    description: "Send us your 3D model file (STL, OBJ, etc.) via WhatsApp — or just share your idea and we'll design it for you.",
   },
   {
     icon: MessageSquare,
     step: "02",
     title: "Get a Quote",
-    description: "We'll review your design and provide a detailed quote within hours.",
+    description: "We'll review your design or concept and provide a detailed quote within hours.",
   },
   {
     icon: Printer,
