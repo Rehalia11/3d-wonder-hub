@@ -58,7 +58,7 @@ export const Hero = () => {
             transition={{ delay: 0.2 }}
           >
             <span className="px-4 py-2 rounded-full border border-primary/30 text-primary text-sm font-medium tracking-wider uppercase">
-              Premium 3D Printing Services
+              Premium 3D Printing Services in Delhi
             </span>
           </motion.div>
 
@@ -70,7 +70,7 @@ export const Hero = () => {
           >
             <span className="text-foreground">Bring Your</span>
             <br />
-            <span className="text-gradient glow-text">Ideas to Life</span>
+            <span className="text-gradient glow-text">Ideas to Life with 3D Indier</span>
           </motion.h1>
 
           <motion.p
@@ -80,7 +80,7 @@ export const Hero = () => {
             transition={{ delay: 0.4 }}
           >
             Transform your digital designs into stunning physical objects with our 
-            professional 3D printing services. Fast, precise, and affordable.
+            professional 3D printing services in Delhi. Fast, precise, and affordable.
           </motion.p>
 
           <motion.div
@@ -105,7 +105,7 @@ export const Hero = () => {
           >
             {[
               { value: "500+", label: "Projects" },
-              { value: "24hr", label: "Turnaround" },
+              { value: "2-4 Days", label: "Turnaround" },
               { value: "100%", label: "Satisfaction" },
             ].map((stat, index) => (
               <div key={index} className="text-center">
